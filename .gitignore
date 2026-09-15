@@ -1,0 +1,30 @@
+# Secrets — .env holds GOOGLE_API_KEY, never commit it
+.env
+.env.*
+
+# Virtual env
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# RAG build artifacts (rebuild via download_pdfs.py + build_index.py)
+data/_raw_drive/
+index/
+
+# Per-run generated files
+output/
+bench.csv

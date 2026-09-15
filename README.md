@@ -1,0 +1,2 @@
+# RAG
+simple rag appliation
